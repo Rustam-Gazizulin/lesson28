@@ -15,7 +15,7 @@ class DiscountListView(ListView):
             response.append(
                 {
                     "id": discount.id,
-                    "tour": discount.tour_id,
+                    "tour": discount.tour,
                     "category": discount.category,
                     "discount": discount.discount,
                     "code": discount.code,
